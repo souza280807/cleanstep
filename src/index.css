@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --blue-brand: #2B7FFF;
+  --blue-dark: #1a5cd8;
+  --blue-light: #dbeafe;
+  --blue-pale: #eff6ff;
+  --white: #ffffff;
+  --gray-soft: #f8f8fa;
+  --gray-mid: #e8e8eb;
+  --gray-text: #6b7280;
+  --dark: #111827;
+  --navy: #0f2644;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #ffffff;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  margin: 0;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Headings display: Manrope bold com tracking negativo */
+.font-display {
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--blue-brand);
+  border-radius: 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--blue-brand);
+  outline-offset: 2px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-12px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
