@@ -17,7 +17,7 @@ const BENEFITS = [
   {
     Icon: Wind,
     title: 'Antiodor de verdade',
-    desc: 'O adesivo absorve o odor na fonte e mantém o interior fresco por até 30 dias.',
+    desc: 'Ajuda a reduzir odores e manter o tênis mais fresco por até 48 horas.',
     color: '#10b981',
   },
   {

@@ -33,7 +33,7 @@ export const PRODUCTS = [
       { step: 1, title: 'Aplique a espuma', desc: 'Aplique a espuma diretamente na superfície do tênis.' },
       { step: 2, title: 'Espalhe', desc: 'Espalhe com um pano ou escova macia em movimentos circulares.' },
       { step: 3, title: 'Remova o excesso', desc: 'Com um pano limpo e seco, remova o excesso da espuma.' },
-      { step: 4, title: 'Use o adesivo', desc: 'Coloque o adesivo antiodor dentro do tênis e deixe agir.' },
+      { step: 4, title: 'Use o adesivo', desc: 'Coloque o adesivo antiodor no interior do tênis e aproveite uma sensação de frescor por até 48 horas.' },
     ],
     faq: [
       {
@@ -54,7 +54,7 @@ export const PRODUCTS = [
       },
       {
         q: 'Quanto tempo dura o adesivo?',
-        a: 'O adesivo antiodor tem duração de até 30 dias em uso regular, dependendo da frequência de uso.',
+        a: 'O adesivo antiodor ajuda a reduzir odores por aproximadamente 48 horas (2 dias) em uso regular.',
       },
       {
         q: 'Como faço para comprar?',
