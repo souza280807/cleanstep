@@ -53,7 +53,7 @@ export default function CTAFinal() {
             <span className="text-white font-bold">R$ 20,00</span>. Espuma + adesivo antiodor.
           </p>
           <p className="text-white/40 text-sm mb-12">
-            Entregamos na sua região. Fale com a gente pelo WhatsApp.
+            Entregas apenas para Caxias do Sul. Fale com a gente pelo WhatsApp.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

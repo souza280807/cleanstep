@@ -58,7 +58,7 @@ export default function Benefits() {
             className="font-display text-4xl sm:text-5xl text-[#0a0e1a] mb-4"
             style={{ letterSpacing: '-0.03em' }}
           >
-            Mais que uma limpeza
+            Mais que limpeza, uma renovação completa
           </h2>
           <p className="text-[#6b7280] text-lg max-w-lg mx-auto">
             Cada detalhe foi pensado para que seus tênis fiquem impecáveis com o mínimo de esforço.

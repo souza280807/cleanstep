@@ -33,7 +33,7 @@ export default function Testimonials() {
             Resultados reais
           </h2>
           <p className="text-white/50 text-lg max-w-md mx-auto">
-            Pessoas que já transformaram seus tênis com o Clean Step.
+            Pessoas que já transformaram seus tênis com o Kit da Clean Step.
           </p>
         </motion.div>
 

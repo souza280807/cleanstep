@@ -5,7 +5,7 @@
 export const SITE = {
   name: 'Clean Step',
   tagline: 'Cuidado real para seus tênis.',
-  description: 'Espuma de limpeza profunda e adesivo antiodor para manter seus tênis limpos e cheirosos.',
+  description: 'Mais que limpeza, uma renovação completa.',
 
   // ─── Contato ───────────────────────────────────────────────
   whatsapp: '5554999900250',
@@ -15,7 +15,7 @@ export const SITE = {
 
   // ─── Hero ──────────────────────────────────────────────────
   hero: {
-    badge: 'Cuidado para tênis',
+    badge: 'Limpeza completa para tênis',
     headline: 'Seu tênis merece\nparecer novo novamente.',
     subheadline: 'Limpeza profunda e proteção contra odores em poucos minutos.',
     ctaPrimary: 'Comprar Agora',
@@ -31,9 +31,8 @@ export const SITE = {
   about: {
     title: 'Quem somos',
     paragraphs: [
-      'A Clean Step nasceu para simplificar o cuidado com os tênis no dia a dia.',
-      'Criamos uma solução prática que une limpeza e combate ao mau cheiro em uma experiência simples, moderna e eficiente.',
-      'Nosso propósito é ajudar você a manter seus tênis com aparência renovada e sensação de cuidado por mais tempo.',
+      'A CleanStep é uma mini empresa criada por estudantes do 2° ano da Rede Caminho, como parte de um projeto desenvolvido pela CIC Jovem. Surgimos com um propósito claro: oferecer uma solução para a limpeza de tênis, devolvendo o visual original de forma rápida e acessível.',
+      'Por isso, desenvolvemos um kit pensado para simplificar o dia a dia, unindo facilidade de uso e resultados visíveis em poucos minutos.',
     ],
     values: [
       { icon: 'Zap',       label: 'Praticidade', desc: 'Solução rápida que cabe na rotina.' },
@@ -50,20 +49,20 @@ export const SITE = {
   // ─── Depoimentos ───────────────────────────────────────────
   testimonials: [
     {
-      name: 'Marcos Alves',
+      name: 'Isabel Cristina de Souza',
       city: 'Caxias do Sul, RS',
       rating: 5,
       text: 'Meu tênis branco estava com manchas de meses. Depois de usar a espuma, ficou como se fosse novo. Produto incrível!',
     },
     {
-      name: 'Juliana Ramos',
-      city: 'Porto Alegre, RS',
+      name: 'Gabriel Hoffmann Rech',
+      city: 'Caxias do Sul, RS',
       rating: 5,
       text: 'O adesivo antiodor faz diferença real. Uso todo dia no meu tênis de corrida e o chulé acabou. Recomendo muito!',
     },
     {
-      name: 'Felipe Costa',
-      city: 'Gramado, RS',
+      name: 'Janaina Moojen de Melos',
+      city: 'Caxias do Sul, RS',
       rating: 5,
       text: 'Produto prático, fácil de aplicar e o resultado é imediato. Comprei para mim e já pedi de presente para o meu irmão.',
     },
