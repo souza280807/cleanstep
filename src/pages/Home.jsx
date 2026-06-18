@@ -3,6 +3,7 @@ import BeforeAfter from '../components/sections/BeforeAfter';
 import Benefits from '../components/sections/Benefits';
 import Technology from '../components/sections/Technology';
 import VideoDemo from '../components/sections/VideoDemo';
+import ProductOptions from '../components/sections/ProductOptions';
 import HowItWorks from '../components/sections/HowItWorks';
 import Testimonials from '../components/sections/Testimonials';
 import AboutPreview from '../components/sections/AboutPreview';
@@ -17,6 +18,7 @@ export default function Home() {
       <Benefits />
       <Technology />
       <VideoDemo />
+      <ProductOptions />
       <HowItWorks />
       <Testimonials />
       <AboutPreview />
