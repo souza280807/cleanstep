@@ -57,11 +57,20 @@ export default function Testimonials() {
               </p>
 
               <div className="flex items-center gap-3 pt-2 border-t border-white/10">
-                {/* Avatar initials */}
-                <div className="w-10 h-10 rounded-full bg-[#2B7FFF]/25 flex items-center justify-center flex-shrink-0">
-                  <span className="text-[#93c5fd] font-bold text-sm">
-                    {t.name.split(' ').map((n) => n[0]).join('').slice(0, 2)}
-                  </span>
+                {/* Avatar */}
+                <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 bg-[#2B7FFF]/25">
+                  {t.photo ? (
+                    <img
+                      src={t.photo}
+                      alt={t.name}
+                      className="w-full h-full object-cover"
+                      style={t.photoStyle || {}}
+                    />
+                  ) : (
+                    <span className="w-full h-full flex items-center justify-center text-[#93c5fd] font-bold text-sm">
+                      {t.name.split(' ').map((n) => n[0]).join('').slice(0, 2)}
+                    </span>
+                  )}
                 </div>
                 <div>
                   <p className="text-white font-semibold text-sm leading-tight">{t.name}</p>
