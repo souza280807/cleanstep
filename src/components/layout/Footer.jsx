@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { AtSign, MessageCircle, Mail } from 'lucide-react';
 import { SITE } from '../../data/siteContent';
-import { assets } from '../../data/assets';
 
 export default function Footer() {
   return (
@@ -10,13 +9,6 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-10 border-b border-white/10">
           {/* Brand */}
           <div>
-            <div className="mb-4">
-              <img
-                src={assets.logo}
-                alt="Clean Step"
-                className="h-10 w-auto object-contain brightness-0 invert"
-              />
-            </div>
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
               {SITE.description}
             </p>

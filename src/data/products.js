@@ -19,7 +19,7 @@ export const PRODUCTS = [
       'Espuma de limpeza profunda + adesivo antiodor. Cuidado completo para seus tênis.',
     includes: [
       '1 frasco espuma de limpeza 100ml',
-      '1 adesivo antiodor para tênis',
+      '4 adesivos antiodor para tênis',
     ],
     benefits: [
       'Remove sujeiras do dia a dia',
