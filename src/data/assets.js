@@ -22,10 +22,9 @@ export const IMAGES = {
   productSticker: assets.cheiroso,
 };
 
-// Galeria do produto — ordem: espuma, kit, aplicando, adesivo
+// Galeria do produto
 export const PRODUCT_GALLERY = [
   { src: assets.espuma,   alt: 'Espuma Clean Step — frasco 100ml' },
   { src: assets.kit,      alt: 'Kit espuma + adesivo antiodor Clean Step' },
-  { src: assets.hero,     alt: 'Aplicando a espuma no tênis' },
   { src: assets.cheiroso, alt: 'Adesivo antiodor Clean Step' },
 ];

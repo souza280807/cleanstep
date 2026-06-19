@@ -21,12 +21,12 @@ const PRODUCTS = [
   {
     id: 'kit',
     name: 'Kit Completo Clean Step',
-    price: 'R$ 25,00',
+    price: 'R$ 20,00',
     items: [
       'Espuma de limpeza',
-      '10 adesivos antiodor',
+      '4 adesivos antiodor',
     ],
-    waMsg: 'Olá! Tenho interesse no Kit Completo Clean Step por R$25,00.',
+    waMsg: 'Olá! Tenho interesse no Kit Completo Clean Step por R$20,00.',
     featured: true,
     badge: 'Mais vendido',
   },
@@ -35,7 +35,7 @@ const PRODUCTS = [
     name: 'Apenas Adesivos Antiodor',
     price: 'R$ 5,00',
     items: [
-      '10 adesivos antiodor',
+      '4 adesivos antiodor',
       'Ajuda a reduzir odores por até 48 horas',
     ],
     waMsg: 'Olá! Tenho interesse nos Adesivos Antiodor Clean Step por R$5,00.',
